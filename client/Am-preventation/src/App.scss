@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+.navbar-light {
+  background-color: #007bff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+.navbar-brand {
+  padding: 25px;
+  color: #ffffff !important;
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 19px;
+  background-color: #fff;
+}
+
+.auth-inner {
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
+  padding: 40px 40px 45px 40px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.forgot-password,
+.forgot-password a {
+  font-size: 13px;
+  padding-top: 10px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.forgot-password a {
+  color: rgb(0, 0, 0);
+}
+.text{
+  padding-right: 30px;
+}
